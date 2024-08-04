@@ -9,7 +9,8 @@ EFI-HACKINTOSH-INTEL-I3-10100F-EX-B460M-V5-ASUS-RX570-8GB-ASUS-ROG
 É apenas o meu EFI completo para o meu hardware com base nos meus experimentos, por favor, consulte Dortania antes de fazer qualquer coisa. Não me responsabilizo por qualquer dano. Esta configuração OpenCore é otimizada para o meu hardware específico, então por favor, use-o apenas como referência ou se acontecer de você ter o mesmo hardware ou similar.
 
 
-![Captura de Tela 2024-08-04 às 19 39 10](https://github.com/user-attachments/assets/2cd7367b-b451-45f6-aaa4-53146547da10)
+
+![Captura de Tela 2024-08-04 às 19 39 10](https://github.com/user-attachments/assets/8cd827d2-a7e5-4013-8a18-20562d610743)
 
 
 

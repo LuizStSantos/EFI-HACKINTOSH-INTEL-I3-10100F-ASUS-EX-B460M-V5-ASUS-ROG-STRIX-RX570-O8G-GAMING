@@ -40,8 +40,6 @@ EFI-HACKINTOSH-INTEL-I3-10100F-EX-B460M-V5-ASUS-RX570-8GB-ASUS-ROG
 - [x] HDMI video & audio output.
 - [x] Ethernet.
 - [x] Audio (Internal speakers, 3.5mm headphone jack).
-- [x] Internal microphone.
-- [x] VGA WebCam.
 - [x] AirDrop & Handoff.
 - [x] iCloud & App Store.
 - [x] iMessage & FaceTime.

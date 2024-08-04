@@ -64,7 +64,7 @@ Config.plist -> PlatformInfo -> Genérico
 
 ## BIOS setup:
 
-🔐 Configuração do BIOS:
+🔐 Configuração da BIOS:
 
 ### Disable
 - Fast Boot

@@ -8,7 +8,9 @@ EFI-HACKINTOSH-INTEL-I3-10100F-EX-B460M-V5-ASUS-RX570-8GB-ASUS-ROG
  ESTE NÃO É UM GUIA!
 É apenas o meu EFI completo para o meu hardware com base nos meus experimentos, por favor, consulte Dortania antes de fazer qualquer coisa. Não me responsabilizo por qualquer dano. Esta configuração OpenCore é otimizada para o meu hardware específico, então por favor, use-o apenas como referência ou se acontecer de você ter o mesmo hardware ou similar.
 
-![Screenshot 2024-06-10 at 10 27 35](https://github.com/FabricioFelix-25/EFI-HACKINTOSH-RYZEN-5600G-B550-M-AUROS-ELITE-RX6600-8GB/assets/126669160/8e2e8ba3-b040-4d63-92b6-abf27b1b4062)
+
+![Captura de Tela 2024-08-04 às 19 39 10](https://github.com/user-attachments/assets/2cd7367b-b451-45f6-aaa4-53146547da10)
+
 
 
 ## :computer: Hardware:

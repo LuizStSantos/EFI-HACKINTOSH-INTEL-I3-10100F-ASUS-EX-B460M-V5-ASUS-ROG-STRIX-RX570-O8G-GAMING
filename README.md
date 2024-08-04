@@ -25,7 +25,7 @@ EFI-HACKINTOSH-INTEL-I3-10100F-EX-B460M-V5-ASUS-RX570-8GB-ASUS-ROG
 | **Wi-Fi/BT** | BCM94360CS2 [Aliexpress](https://a.aliexpress.com/_mNf8gH6)                                                                 |
 | **Adaptador PCIE X1 Wi-Fi/BT** | Adaptador PCIE X1 [Aliexpress](https://a.aliexpress.com/_mrjIsRA)                                                                 |
 | **Ethernet** | Realtek RTL8111H                                                                  |
-| **Audio**    | Realtek ALC887/897 (layout-id=11)                                                    |
+| **Audio**    | Realtek ALC887/897 (layout-id=1)                                                    |
 
 
 ## :white_check_mark: Working:

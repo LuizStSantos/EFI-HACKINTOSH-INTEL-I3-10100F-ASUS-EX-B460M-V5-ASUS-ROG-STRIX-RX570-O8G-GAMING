@@ -30,7 +30,7 @@ EFI-HACKINTOSH-INTEL-I3-10100F-EX-B460M-V5-ASUS-RX570-8GB-ASUS-ROG
 
 ## :white_check_mark: Working:
 
-✅ Trabalhando:
+✅ Funcionando:
 - [x] CPU power management.
 - [x] Graphics acceleration.
 - [x] Keyboard & Mouse
@@ -56,7 +56,7 @@ USB 3.0 Interno da placa mãe não está mapeado.
 
 🔐 SMBIOS
 
-Você precisará gerar seu próprio SMBIOS e configurar, já que é necessário trabalhar totalmente com o macOS. De acordo com este guia, você pode usar os seguintes SMBIOS: iMac20,1. Observe que se o seu hardware é diferente para o mencionado aqui você tem que escolher um SMBIOS apropriado, mais detalhes no guia.
+Você precisará gerar seu próprio SMBIOS e configurar, já que é necessário trabalhar totalmente com o macOS. De acordo com este guia, você pode usar os seguintes SMBIOS: iMac20,1. Observe que se o seu hardware é diferente para o mencionado aqui você tem que escolher um SMBIOS apropriado.
 
 Use GenSMBIOS para gerar seu próprio SMBIOS exclusivo e, em seguida, copie cada parâmetro seguindo o caminho (recomendado para seguir o guia acima):
 
@@ -66,12 +66,10 @@ Config.plist -> PlatformInfo -> Genérico
 
 🔐 Configuração da BIOS:
 
-### Disable
-- Fast Boot
-- Secure Boot
+❌ Desabilitar
+- Secure Boot (Others OS)
 - Serial/COM Port
 - Parallel Port
-- VT-d (can be enabled if you set `DisableIoMapper` to YES)
 - Compatibility Support Module (CSM).
 - Thunderbolt(For initial install, as Thunderbolt can cause issues if not setup correctly)
 - Intel SGX
@@ -80,8 +78,10 @@ Config.plist -> PlatformInfo -> Genérico
 	- This must be off, if you can't find the option then **`ENABLE`** `AppleXcpmCfgLock`. 
 	- Your hack will not boot with `CFG-Lock` enabled.
 
-### Enable
+✅ Habilitar
 - VT-x
+- VT-d
+- Fast Boot
 - Above 4G decoding. 
 	- This must be on, if you can't find the option then add `npci=0x2000` to `boot-args`. 
 	- Do not have both this option and `npci` on `boot-args` enabled at the same time.
@@ -89,8 +89,6 @@ Config.plist -> PlatformInfo -> Genérico
 - Hyper-Threading
 - Execute Disable Bit
 - EHCI/XHCI Hand-off
-- OS type: Windows 8.1/10 UEFI Mode
-- DVMT Pre-Allocated(iGPU Memory): 64MB
 - SATA Mode: AHCI
 
 ## Credits:

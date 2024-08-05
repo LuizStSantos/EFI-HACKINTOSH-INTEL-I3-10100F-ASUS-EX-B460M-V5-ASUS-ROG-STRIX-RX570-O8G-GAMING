@@ -66,10 +66,12 @@ Config.plist -> PlatformInfo -> Genérico
 A Configuração da BIOS e baseada nas opções da placa mãe `Asus EX-B460M-V5`
 
 ❌ Desabilitar
-- Secure Boot (Others OS)
+- Secure Boot
+  	- Coloque **`Others OS`** no `OS Type` para desativar o `Secure Boot`
 - Compatibility Support Module (CSM).
 - Intel SGX
-- Intel Platform Trust
+- Intel Platform Trust (TPM 2.0)
+	- Você pode ativar no caso se você usa dual Boot, não interfere em nada, mas se você não usa recomendo deixar desabilitado.
 - CFG Lock (MSR 0xE2 write protection)
 	- Deve estar desativado, se você não conseguir encontrar a opção, então **`ENABLE`** `AppleXcpmCfgLock`. 
 	- Seu hack não inicializará com `CFG-Lock` enabled.
@@ -82,7 +84,6 @@ A Configuração da BIOS e baseada nas opções da placa mãe `Asus EX-B460M-V5`
 	- Deve estar ativado, se você não conseguir encontrar a opção, adicione `npci=0x2000` to `boot-args`. 
 	- Não tenha esta opção e `npci` em `boot-args` habilitados ao mesmo tempo.
 - Hyper-Threading
-- Execute Disable Bit
 - EHCI/XHCI Hand-off
 - SATA Mode: AHCI
 

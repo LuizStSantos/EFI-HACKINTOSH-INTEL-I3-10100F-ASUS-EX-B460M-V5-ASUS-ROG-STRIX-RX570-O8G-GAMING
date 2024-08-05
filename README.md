@@ -63,7 +63,7 @@ Config.plist -> PlatformInfo -> Genérico
 ## :closed_lock_with_key: Configuração da BIOS:
 
 :warning: Aviso:
-A Configuração da BIOS e baseada nas opção da placa mãe `Asus EX-B460M-V5`
+A Configuração da BIOS e baseada nas opções da placa mãe `Asus EX-B460M-V5`
 
 ❌ Desabilitar
 - Secure Boot (Others OS)
@@ -81,7 +81,6 @@ A Configuração da BIOS e baseada nas opção da placa mãe `Asus EX-B460M-V5`
 - Above 4G decoding. 
 	- Deve estar ativado, se você não conseguir encontrar a opção, adicione `npci=0x2000` to `boot-args`. 
 	- Não tenha esta opção e `npci` em `boot-args` habilitados ao mesmo tempo.
-	- 2020+ BIOS Notas: Ao ativar o Above4G, o suporte de BAR redimensionável pode ficar disponível em algumas placas-mãe Z490 e mais recentes. Certifique-se de que esteja **`DISABLED`** em vez de definido como Automático.
 - Hyper-Threading
 - Execute Disable Bit
 - EHCI/XHCI Hand-off

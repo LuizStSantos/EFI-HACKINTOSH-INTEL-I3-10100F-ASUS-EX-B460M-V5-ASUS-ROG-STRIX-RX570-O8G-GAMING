@@ -18,7 +18,7 @@ EFI-HACKINTOSH-INTEL-I3-10100F-ASUS-EX-B460M-V5-ASUS-ROG-STRIX-RX570-O8G-GAMING
 | **Category** | **Component**                                                                    |
 | ------------ | -------------------------------------------------------------------------------- |
 | **CPU**      |  [Intel(R) Core(TM) i3-10100F CPU @ 3.60GHz](https://www.intel.com.br/content/www/br/pt/products/sku/203473/intel-core-i310100f-processor-6m-cache-up-to-4-30-ghz/specifications.html)                                      |
-| **GPU**      |  [ASUS ROG Strix - AMD Radeon RX 570  8GB](https://www.asus.com/br/supportonly/rog-strix-rx570-o8g-gaming/helpdesk_manual/)                                          |
+| **GPU**      |  [Asus ROG Strix RX 570 O8G Gaming](https://www.asus.com/br/supportonly/rog-strix-rx570-o8g-gaming/helpdesk_manual/)                                          |
 | **RAM**      |  [XPG Gammix D30 2x8GB DDR4 3200MHz](https://www.xpg.com/pt/xpg/588)                                                    |
 | **MOTHERBOARD**  | [Asus EX-B460M-V5](https://www.asus.com/br/motherboards-components/motherboards/csm/ex-b460m-v5/) |
 | **SSD**      | [240GB Crucial BX500 SATA](https://br.crucial.com/products/ssd/bx500-ssd)                                                       |

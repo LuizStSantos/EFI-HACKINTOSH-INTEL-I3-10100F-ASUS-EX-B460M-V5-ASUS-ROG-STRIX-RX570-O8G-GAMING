@@ -18,7 +18,7 @@ EFI-HACKINTOSH-INTEL-I3-10100F-EX-B460M-V5-ASUS-RX570-8GB-ASUS-ROG
 | **Category** | **Component**                                                                    |
 | ------------ | -------------------------------------------------------------------------------- |
 | **CPU**      | Intel(R) Core(TM) i3-10100F CPU @ 3.60GHz 4-Core Processor                                        |
-| **GPU**      |Asus Rog - AMD Radeon RX 570  8GB                       |
+| **GPU**      | ASUS ROG Strix - AMD Radeon RX 570  8GB                       |
 | **RAM**      | 16GB  DDR4 2666MHZ                                                   |
 | **CHIPSET**  | EX-B460M-V5 [Asus](https://www.asus.com/br/motherboards-components/motherboards/csm/ex-b460m-v5/) |
 | **SSD**      | 240GB Crucial BX500 SATA                                                                 |

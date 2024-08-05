@@ -12,7 +12,7 @@
 |**1.1**|  Essa `EFI` e modificada para uso de um processador com final `F`, `i3-10100F`.|
 | ------ | ----- |
 
-## :camera: Pós install
+## :camera: Pós install:
 ![Captura de Tela 2024-08-04 às 21 50 44](https://github.com/user-attachments/assets/fe7615de-facb-4c5a-a764-01d37a306435)
 
 

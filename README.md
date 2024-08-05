@@ -17,13 +17,13 @@ EFI-HACKINTOSH-INTEL-I3-10100F-EX-B460M-V5-ASUS-RX570-8GB-ASUS-ROG
 
 | **Category** | **Component**                                                                    |
 | ------------ | -------------------------------------------------------------------------------- |
-| **CPU**      | Intel(R) Core(TM) i3-10100F CPU @ 3.60GHz [Intel](https://www.intel.com.br/content/www/br/pt/products/sku/203473/intel-core-i310100f-processor-6m-cache-up-to-4-30-ghz/specifications.html)                                      |
-| **GPU**      | ASUS ROG Strix - AMD Radeon RX 570  8GB [Asus](https://www.asus.com/br/supportonly/rog-strix-rx570-o8g-gaming/helpdesk_manual/)                                          |
-| **RAM**      | XPG Gammix D30 2x8GB DDR4 3200MHz - Working 2666MHz  [XPG](https://www.xpg.com/pt/xpg/588)                                                   |
-| **MOTHERBOARD**  | Asus EX-B460M-V5 [Asus](https://www.asus.com/br/motherboards-components/motherboards/csm/ex-b460m-v5/) |
-| **SSD**      | 240GB Crucial BX500 SATA [Crucial](https://br.crucial.com/products/ssd/bx500-ssd)                                                       |
-| **Wi-Fi/BT** | BCM94360CS2 [Aliexpress](https://a.aliexpress.com/_mNf8gH6)                                                                 |
-| **Adaptador PCIE X1 Wi-Fi/BT** | Adaptador PCIE X1 [Aliexpress](https://a.aliexpress.com/_mrjIsRA)                                                                 |
+| **CPU**      |  [Intel(R) Core(TM) i3-10100F CPU @ 3.60GHz](https://www.intel.com.br/content/www/br/pt/products/sku/203473/intel-core-i310100f-processor-6m-cache-up-to-4-30-ghz/specifications.html)                                      |
+| **GPU**      |  [ASUS ROG Strix - AMD Radeon RX 570  8GB](https://www.asus.com/br/supportonly/rog-strix-rx570-o8g-gaming/helpdesk_manual/)                                          |
+| **RAM**      |  [XPG Gammix D30 2x8GB DDR4 3200MHz](https://www.xpg.com/pt/xpg/588) - Working 2666MHz                                                    |
+| **MOTHERBOARD**  | [Asus EX-B460M-V5](https://www.asus.com/br/motherboards-components/motherboards/csm/ex-b460m-v5/) |
+| **SSD**      | [240GB Crucial BX500 SATA](https://br.crucial.com/products/ssd/bx500-ssd)                                                       |
+| **Wi-Fi/BT** | [BCM94360CS2](https://a.aliexpress.com/_mNf8gH6)                                                                 |
+| **Adaptador PCIE X1 Wi-Fi/BT** | [Adaptador PCIE X1](https://a.aliexpress.com/_mrjIsRA)                                                                 |
 | **Ethernet** | Realtek RTL8111H                                                                  |
 | **Audio**    | Realtek ALC887/897 (layout-id=1)                                                    |
 

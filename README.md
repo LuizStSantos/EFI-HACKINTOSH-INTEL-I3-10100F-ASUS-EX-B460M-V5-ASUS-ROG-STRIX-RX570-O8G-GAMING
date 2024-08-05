@@ -4,8 +4,13 @@
 ℹ️ A versão atual é totalmente compatível com macOS Sonoma. OpenCore, drivers e kexts estão sempre atualizados!
 
 ## :warning: Aviso:
- ESTE NÃO É UM GUIA!
-É apenas o meu EFI completo para o meu hardware com base nos meus experimentos, por favor, consulte Dortania antes de fazer qualquer coisa. Não me responsabilizo por qualquer dano. Esta configuração OpenCore é otimizada para o meu hardware específico, então por favor, use-o apenas como referência ou se acontecer de você ter o mesmo hardware ou similar.
+ **ESTE NÃO É UM GUIA!**
+
+|**1.0**| É apenas o meu `EFI` completo para o meu hardware com base nos meus experimentos, por favor, consulte Dortania antes de fazer qualquer coisa. Não me responsabilizo por qualquer dano. Esta configuração OpenCore é otimizada para o meu hardware específico, então por favor, use-o apenas como referência ou se acontecer de você ter o mesmo hardware ou similar.|
+| ------ | ----- |
+
+|**1.1**|  Essa `EFI` e modificada para uso de um processador com final `F`, `i3-10100F`.|
+| ------ | ----- |
 
 ## :camera: Pós install
 ![Captura de Tela 2024-08-04 às 21 50 44](https://github.com/user-attachments/assets/fe7615de-facb-4c5a-a764-01d37a306435)
@@ -67,7 +72,7 @@ Config.plist -> PlatformInfo -> Genérico
 
 ✅ Habilitar
 - VT-x
-- VT-d
+- VT-d (pode ser ativado se você definir `DisableIoMapper` como `YES` )
 - Fast Boot
 - Above 4G decoding. 
 	- Deve estar ativado, se você não conseguir encontrar a opção, adicione `npci=0x2000` to `boot-args`. 

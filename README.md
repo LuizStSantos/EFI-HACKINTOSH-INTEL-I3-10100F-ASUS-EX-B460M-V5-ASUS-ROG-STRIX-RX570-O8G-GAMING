@@ -62,6 +62,9 @@ Config.plist -> PlatformInfo -> Genérico
 
 ## :closed_lock_with_key: Configuração da BIOS:
 
+:warning: Aviso:
+A Configuração da BIOS e baseada nas opção da placa mãe `Asus EX-B460M-V5`
+
 ❌ Desabilitar
 - Secure Boot (Others OS)
 - Compatibility Support Module (CSM).

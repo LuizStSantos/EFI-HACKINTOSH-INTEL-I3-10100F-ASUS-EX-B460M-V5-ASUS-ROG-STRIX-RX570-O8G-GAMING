@@ -1,9 +1,8 @@
 # EFI-HACKINTOSH-INTEL-I3-10100F-ASUS-EX-B460M-V5-ASUS-ROG-STRIX-RX570-O8G-GAMING
-EFI-HACKINTOSH-INTEL-I3-10100F-ASUS-EX-B460M-V5-ASUS-ROG-STRIX-RX570-O8G-GAMING
 <br/>
-ℹ️ The current version is fully macOS  Ventura and Sonoma compatible. OpenCore, drivers, and kexts are always up to date!
+ℹ️ A versão atual é totalmente compatível com macOS Sonoma. OpenCore, drivers e kexts estão sempre atualizados!
 
-:warning: **DISCLAIMER:**
+:warning: **Aviso:**
 <br/>
  ESTE NÃO É UM GUIA!
 É apenas o meu EFI completo para o meu hardware com base nos meus experimentos, por favor, consulte Dortania antes de fazer qualquer coisa. Não me responsabilizo por qualquer dano. Esta configuração OpenCore é otimizada para o meu hardware específico, então por favor, use-o apenas como referência ou se acontecer de você ter o mesmo hardware ou similar.
@@ -15,12 +14,12 @@ EFI-HACKINTOSH-INTEL-I3-10100F-ASUS-EX-B460M-V5-ASUS-ROG-STRIX-RX570-O8G-GAMING
 
 ## :computer: Hardware:
 
-| **Category** | **Component**                                                                    |
+| **Categoria** | **Componente**                                                                    |
 | ------------ | -------------------------------------------------------------------------------- |
 | **CPU**      |  [Intel(R) Core(TM) i3-10100F CPU @ 3.60GHz](https://www.intel.com.br/content/www/br/pt/products/sku/203473/intel-core-i310100f-processor-6m-cache-up-to-4-30-ghz/specifications.html)                                      |
 | **GPU**      |  [Asus ROG Strix RX 570 O8G Gaming](https://www.asus.com/br/supportonly/rog-strix-rx570-o8g-gaming/helpdesk_manual/)                                          |
 | **RAM**      |  [XPG Gammix D30 2x8GB DDR4 3200MHz](https://www.xpg.com/pt/xpg/588)                                                    |
-| **MOTHERBOARD**  | [Asus EX-B460M-V5](https://www.asus.com/br/motherboards-components/motherboards/csm/ex-b460m-v5/) |
+| **Placa mãe**  | [Asus EX-B460M-V5](https://www.asus.com/br/motherboards-components/motherboards/csm/ex-b460m-v5/) |
 | **SSD**      | [240GB Crucial BX500 SATA](https://br.crucial.com/products/ssd/bx500-ssd)                                                       |
 | **Wi-Fi/BT** | [BCM94360CS2](https://a.aliexpress.com/_mNf8gH6)                                                                 |
 | **Adaptador PCIE X1 Wi-Fi/BT** | [Adaptador PCIE X1](https://a.aliexpress.com/_mrjIsRA)                                                                 |
@@ -28,9 +27,8 @@ EFI-HACKINTOSH-INTEL-I3-10100F-ASUS-EX-B460M-V5-ASUS-ROG-STRIX-RX570-O8G-GAMING
 | **Audio**    | Realtek ALC887/897 (layout-id=1)                                                    |
 
 
-## :white_check_mark: Working:
+## :white_check_mark: Funcionando:
 
-✅ Funcionando:
 - [x] CPU power management.
 - [x] Graphics acceleration.
 - [x] Keyboard & Mouse
@@ -44,56 +42,43 @@ EFI-HACKINTOSH-INTEL-I3-10100F-ASUS-EX-B460M-V5-ASUS-ROG-STRIX-RX570-O8G-GAMING
 - [x] iCloud & App Store.
 - [x] iMessage & FaceTime.
 
-## :x: Not working:
-             
-❌ Não funciona:
+## :x: Não funciona:
 
 USB 3.0 Interno da placa mãe não está mapeado.
 
-
 ## :closed_lock_with_key: SMBIOS
 
-
-🔐 SMBIOS
-
-Você precisará gerar seu próprio SMBIOS e configurar, já que é necessário trabalhar totalmente com o macOS. De acordo com este guia, você pode usar os seguintes SMBIOS: iMac20,1. Observe que se o seu hardware é diferente para o mencionado aqui você tem que escolher um SMBIOS apropriado.
+Você precisará gerar seu próprio SMBIOS e configurar, já que é necessário trabalhar totalmente com o macOS. De acordo com este EFI, você pode usar os seguintes SMBIOS: iMac20,1. Observe que se o seu hardware é diferente para o mencionado aqui você tem que escolher um SMBIOS apropriado.
 
 Use GenSMBIOS para gerar seu próprio SMBIOS exclusivo e, em seguida, copie cada parâmetro seguindo o caminho (recomendado para seguir o guia acima):
 
 Config.plist -> PlatformInfo -> Genérico
 
-## BIOS setup:
-
-🔐 Configuração da BIOS:
+## :closed_lock_with_key: Configuração da BIOS:
 
 ❌ Desabilitar
 - Secure Boot (Others OS)
-- Serial/COM Port
-- Parallel Port
 - Compatibility Support Module (CSM).
-- Thunderbolt(For initial install, as Thunderbolt can cause issues if not setup correctly)
 - Intel SGX
 - Intel Platform Trust
 - CFG Lock (MSR 0xE2 write protection)
-	- This must be off, if you can't find the option then **`ENABLE`** `AppleXcpmCfgLock`. 
-	- Your hack will not boot with `CFG-Lock` enabled.
+	- Deve estar desativado, se você não conseguir encontrar a opção, então **`ENABLE`** `AppleXcpmCfgLock`. 
+	- Seu hack não inicializará com `CFG-Lock` enabled.
 
 ✅ Habilitar
 - VT-x
 - VT-d
 - Fast Boot
 - Above 4G decoding. 
-	- This must be on, if you can't find the option then add `npci=0x2000` to `boot-args`. 
-	- Do not have both this option and `npci` on `boot-args` enabled at the same time.
-	- 2020+ BIOS Notes: When enabling Above4G, Resizable BAR Support may become an available on some Z490 and newer motherboards. Please ensure this is **`DISABLED`** instead of set to Auto.
+	- Deve estar ativado, se você não conseguir encontrar a opção, adicione `npci=0x2000` to `boot-args`. 
+	- Não tenha esta opção e `npci` em `boot-args` habilitados ao mesmo tempo.
+	- 2020+ BIOS Notas: Ao ativar o Above4G, o suporte de BAR redimensionável pode ficar disponível em algumas placas-mãe Z490 e mais recentes. Certifique-se de que esteja **`DISABLED`** em vez de definido como Automático.
 - Hyper-Threading
 - Execute Disable Bit
 - EHCI/XHCI Hand-off
 - SATA Mode: AHCI
 
-## Credits:
-
-Créditos:
+## :trophy: Creditos:
 
 [Gabriel Luchina](https://www.youtube.com/c/GabrielLuchina)
 

@@ -9,8 +9,7 @@ EFI-HACKINTOSH-INTEL-I3-10100F-EX-B460M-V5-ASUS-RX570-8GB-ASUS-ROG
 É apenas o meu EFI completo para o meu hardware com base nos meus experimentos, por favor, consulte Dortania antes de fazer qualquer coisa. Não me responsabilizo por qualquer dano. Esta configuração OpenCore é otimizada para o meu hardware específico, então por favor, use-o apenas como referência ou se acontecer de você ter o mesmo hardware ou similar.
 
 
-
-![Captura de Tela 2024-08-04 às 19 39 10](https://github.com/user-attachments/assets/8cd827d2-a7e5-4013-8a18-20562d610743)
+![Captura de Tela 2024-08-04 às 21 50 44](https://github.com/user-attachments/assets/fe7615de-facb-4c5a-a764-01d37a306435)
 
 
 
@@ -57,7 +56,7 @@ USB 3.0 Interno da placa mãe não está mapeado.
 
 🔐 SMBIOS
 
-Você precisará gerar seu próprio SMBIOS e configurar, já que é necessário trabalhar totalmente com o macOS. De acordo com este guia, você pode usar os seguintes SMBIOS: iMacPro20,1. Observe que se o seu hardware é diferente para o mencionado aqui você tem que escolher um SMBIOS apropriado, mais detalhes no guia.
+Você precisará gerar seu próprio SMBIOS e configurar, já que é necessário trabalhar totalmente com o macOS. De acordo com este guia, você pode usar os seguintes SMBIOS: iMac20,1. Observe que se o seu hardware é diferente para o mencionado aqui você tem que escolher um SMBIOS apropriado, mais detalhes no guia.
 
 Use GenSMBIOS para gerar seu próprio SMBIOS exclusivo e, em seguida, copie cada parâmetro seguindo o caminho (recomendado para seguir o guia acima):
 

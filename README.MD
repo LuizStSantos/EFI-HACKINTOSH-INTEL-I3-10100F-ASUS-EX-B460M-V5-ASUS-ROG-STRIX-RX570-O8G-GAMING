@@ -55,11 +55,13 @@
 
 ## :closed_lock_with_key: SMBIOS
 
-iMac20,1 (usado nesta EFI)
+- SMBIOS iMac20,1 (foi usado nesta EFI)
 
-Use GenSMBIOS para gerar seu próprio SMBIOS exclusivo e, em seguida, copie cada parâmetro seguindo o caminho (recomendado para seguir o guia): [GenSMBIOS](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#using-gensmbios)
+Use GenSMBIOS para gerar seu próprio SMBIOS exclusivo e em seguida, copie cada parâmetro seguindo o caminho.
 
-Config.plist -> PlatformInfo -> Genérico
+- Config.plist -> PlatformInfo -> Generic
+
+(Recomendo seguir o guia): [GenSMBIOS](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#using-gensmbios)
 
 ## :closed_lock_with_key: Configuração da BIOS:
 
@@ -67,10 +69,6 @@ Config.plist -> PlatformInfo -> Genérico
 A Configuração da BIOS e baseada nas opções da placa mãe `Asus EX-B460M-V5 Versão da BIOS 1401`
 
 ❌ Desabilitar
-
-- Secure Boot
-	- Boot\Secure Boot
-  		- **OS Type** `Others OS`.
 
 - Fast Boot
 	- Boot\Boot Configuration
@@ -99,6 +97,10 @@ A Configuração da BIOS e baseada nas opções da placa mãe `Asus EX-B460M-V5 
 
 
 ✅ Habilitar
+
+- Secure Boot
+	- Boot\Secure Boot
+  		- **OS Type** `Others OS`.
 
 - VT-x
 	- Já vem ativado de fabrica.

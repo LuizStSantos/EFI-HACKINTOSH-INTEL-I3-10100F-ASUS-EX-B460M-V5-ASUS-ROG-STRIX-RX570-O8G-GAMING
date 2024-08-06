@@ -67,10 +67,17 @@ A Configuração da BIOS e baseada nas opções da placa mãe `Asus EX-B460M-V5`
 
 ❌ Desabilitar
 - Secure Boot
-  	- Coloque **`Others OS`** no `OS Type` para desativar o `Secure Boot`
+	- Boot\Secure Boot
+  		- OS Type `Others OS`.
 - Compatibility Support Module (CSM).
+	- Boot\CSM (Compatibility Support Module)
+		- Launch CSM `Disabled`.
 - Intel SGX
+	- Advanced\CPU Configuration
+		- Software Guard Extensions (SGX) `Disabled`.
 - Intel Platform Trust (TPM 2.0)
+	- Advanced\PCH-FW Configuration
+		- TPM Device Selection `Enable Firmware TPM`.
 	- Você pode ativar no caso se você usa dual Boot, não interfere em nada, mas se você não usa recomendo deixar desabilitado.
 - CFG Lock (MSR 0xE2 write protection)
 	- Deve estar desativado, se você não conseguir encontrar a opção, então **`ENABLE`** `AppleXcpmCfgLock`. 
@@ -78,14 +85,25 @@ A Configuração da BIOS e baseada nas opções da placa mãe `Asus EX-B460M-V5`
 
 ✅ Habilitar
 - VT-x
-- VT-d (pode ser ativado se você definir `DisableIoMapper` como `YES` )
+	- Advanced\CPU Configuration
+		- Intel (VMX) Virtualization Technology `Enabled`.
+- VT-d ( Pode ser ativado se você definir `DisableIoMapper` como `YES` )
+	- Advanced\CPU Configuration
+		- VT-d `Enabled`.
 - Fast Boot
+	- Boot\Boot Configuration
+		- Fast Boot `Enabled`.
 - Above 4G decoding. 
-	- Deve estar ativado, se você não conseguir encontrar a opção, adicione `npci=0x2000` to `boot-args`. 
-	- Não tenha esta opção e `npci` em `boot-args` habilitados ao mesmo tempo.
+	- Adicione `npci=0x2000` ao `boot-args`. 
 - Hyper-Threading
+	- Advanced\CPU Configuration
+		- Hyper-Threading `Enabled`.
 - EHCI/XHCI Hand-off
+	- Advanced\USB Configuration
+		- XHCI Hand-off `Enabled`.
 - SATA Mode: AHCI
+	- Advanced\PCH Storage Configuration
+		- Sata mode Selection `AHCI`.
 
 ## :trophy: Creditos:
 
@@ -95,4 +113,4 @@ A Configuração da BIOS e baseada nas opções da placa mãe `Asus EX-B460M-V5`
 
 [Dortânia](https://dortania.github.io/getting-started/)
 
-[Maçã](https://www.apple.com/)
+[Apple](https://www.apple.com/)

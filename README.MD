@@ -1,7 +1,7 @@
 # EFI-HACKINTOSH-INTEL-I3-10100F-ASUS-EX-B460M-V5-ASUS-ROG-STRIX-RX570-O8G-GAMING
 <br/>
 
-ℹ️ A versão atual é totalmente compatível com macOS Sonoma. OpenCore, drivers e kexts estão sempre atualizados!
+ℹ️ A versão atual é totalmente compatível com macOS Sonoma e Sequoia. OpenCore, drivers e kexts estão sempre atualizados!
 
 ## :warning: Aviso:
  **ESTE NÃO É UM GUIA!**
@@ -57,9 +57,9 @@
 
 - SMBIOS iMac20,1 (foi usado nesta EFI)
 
-Use GenSMBIOS para gerar seu próprio SMBIOS exclusivo e em seguida, copie cada parâmetro seguindo o caminho.
+- Use GenSMBIOS para gerar seu próprio SMBIOS exclusivo e em seguida, copie cada parâmetro seguindo o caminho.
 
-- Config.plist -> PlatformInfo -> Generic
+	- Config.plist -> PlatformInfo -> Generic
 
 (Recomendo seguir o guia): [GenSMBIOS](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#using-gensmbios)
 

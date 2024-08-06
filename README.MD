@@ -15,6 +15,7 @@
 ## :camera: Pós install:
 
 
+![POSINSTALL](https://github.com/user-attachments/assets/85839332-9565-4e4f-a0bf-36053aa65176)
 
 
 ## :computer: Hardware:

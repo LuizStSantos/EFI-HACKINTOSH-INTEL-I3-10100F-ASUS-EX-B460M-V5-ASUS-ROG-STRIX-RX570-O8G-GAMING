@@ -100,12 +100,15 @@ A Configuração da BIOS e baseada nas opções da placa mãe `Asus EX-B460M-V5 
 ✅ Habilitar
 
 - VT-x
-	- Advanced\CPU Configuration
-		- **Intel (VMX) Virtualization Technology** `Enabled`.
+	- Já vem ativado de fabrica.
 
 - VT-d ( Pode ser ativado se você definir `DisableIoMapper` como `YES` )
 	- Advanced\CPU Configuration
 		- **VT-d** `Enabled`.
+
+- VMX
+	- Advanced\CPU Configuration
+		- **Intel (VMX) Virtualization Technology** `Enabled`.
 
 - Above 4G decoding. 
 	- Adicione `npci=0x2000` ao `boot-args`. 

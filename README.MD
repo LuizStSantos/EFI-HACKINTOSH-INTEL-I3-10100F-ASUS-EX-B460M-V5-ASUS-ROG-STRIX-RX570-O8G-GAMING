@@ -66,44 +66,62 @@ Config.plist -> PlatformInfo -> Genérico
 A Configuração da BIOS e baseada nas opções da placa mãe `Asus EX-B460M-V5`
 
 ❌ Desabilitar
+
 - Secure Boot
 	- Boot\Secure Boot
-  		- OS Type `Others OS`.
-- Compatibility Support Module (CSM).
-	- Boot\CSM (Compatibility Support Module)
-		- Launch CSM `Disabled`.
-- Intel SGX
-	- Advanced\CPU Configuration
-		- Software Guard Extensions (SGX) `Disabled`.
-- Intel Platform Trust (TPM 2.0)
-	- Advanced\PCH-FW Configuration
-		- TPM Device Selection `Enable Firmware TPM`.
-	- Você pode ativar no caso se você usa dual Boot, não interfere em nada, mas se você não usa recomendo deixar desabilitado.
-- CFG Lock (MSR 0xE2 write protection)
-	- Deve estar desativado, se você não conseguir encontrar a opção, então **`ENABLE`** `AppleXcpmCfgLock`. 
-	- Seu hack não inicializará com `CFG-Lock` enabled.
+  		- **OS Type** `Others OS`.
 
-✅ Habilitar
-- VT-x
-	- Advanced\CPU Configuration
-		- Intel (VMX) Virtualization Technology `Enabled`.
-- VT-d ( Pode ser ativado se você definir `DisableIoMapper` como `YES` )
-	- Advanced\CPU Configuration
-		- VT-d `Enabled`.
 - Fast Boot
 	- Boot\Boot Configuration
-		- Fast Boot `Enabled`.
+		- **Fast Boot** `Disabled`.
+
+
+- Compatibility Support Module (CSM).
+	- Boot\CSM (Compatibility Support Module)
+		- **Launch CSM** `Disabled`.
+
+- Intel SGX
+	- Advanced\CPU Configuration
+		- **Software Guard Extensions (SGX)** `Disabled`.
+
+- Intel Platform Trust
+	- Advanced\Trusted Computing 
+		- **Secure Device Support** `Disabled`.
+
+- Intel Platform Trust
+	- Advanced\PCH-FW Configuration
+		- **TPM Device Selection** `Enable Discrete TPM`.
+	- Você pode ativar no caso se você usa dual Boot, não interfere em nada, mas se você não usa recomendo deixar desabilitado.
+
+- CFG Lock (MSR 0xE2 write protection)
+	- Já vem desativado de fabrica.
+
+
+✅ Habilitar
+
+- VT-x
+	- Advanced\CPU Configuration
+		- **Intel (VMX) Virtualization Technology** `Enabled`.
+
+- VT-d ( Pode ser ativado se você definir `DisableIoMapper` como `YES` )
+	- Advanced\CPU Configuration
+		- **VT-d** `Enabled`.
+
 - Above 4G decoding. 
 	- Adicione `npci=0x2000` ao `boot-args`. 
+
 - Hyper-Threading
 	- Advanced\CPU Configuration
-		- Hyper-Threading `Enabled`.
+		- **Hyper-Threading** `Enabled`.
+
 - EHCI/XHCI Hand-off
 	- Advanced\USB Configuration
-		- XHCI Hand-off `Enabled`.
+		- **XHCI Hand-off** `Enabled`.
+
 - SATA Mode: AHCI
 	- Advanced\PCH Storage Configuration
-		- Sata mode Selection `AHCI`.
+		- **Sata mode Selection** `AHCI`.
+
 
 ## :trophy: Creditos:
 

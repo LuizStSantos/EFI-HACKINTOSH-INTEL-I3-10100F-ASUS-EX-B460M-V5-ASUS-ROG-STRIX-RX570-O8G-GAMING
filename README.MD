@@ -24,7 +24,7 @@
 | **CPU**      |  [Intel(R) Core(TM) i3-10100F CPU @ 3.60GHz](https://www.intel.com.br/content/www/br/pt/products/sku/203473/intel-core-i310100f-processor-6m-cache-up-to-4-30-ghz/specifications.html)                                      |
 | **GPU**      |  [Asus ROG Strix RX 570 O8G Gaming](https://www.asus.com/br/supportonly/rog-strix-rx570-o8g-gaming/helpdesk_manual/)                                          |
 | **RAM**      |  [XPG Gammix D30 2x8GB DDR4 3200MHz](https://www.xpg.com/pt/xpg/588)                                                    |
-| **Placa mãe**  | [Asus EX-B460M-V5](https://www.asus.com/br/motherboards-components/motherboards/csm/ex-b460m-v5/) |
+| **Placa mãe**  | [Asus EX-B460M-V5](https://www.asus.com/br/motherboards-components/motherboards/csm/ex-b460m-v5/) BIOS 1401|
 | **SSD**      | [240GB Crucial BX500 SATA](https://br.crucial.com/products/ssd/bx500-ssd)                                                       |
 | **Wi-Fi/BT** | [BCM94360CS2](https://a.aliexpress.com/_mNf8gH6)                                                                 |
 | **Adaptador PCIE X1 Wi-Fi/BT** | [Adaptador PCIE X1](https://a.aliexpress.com/_mrjIsRA)                                                                 |
@@ -63,7 +63,7 @@ Config.plist -> PlatformInfo -> Genérico
 ## :closed_lock_with_key: Configuração da BIOS:
 
 :warning: Aviso:
-A Configuração da BIOS e baseada nas opções da placa mãe `Asus EX-B460M-V5`
+A Configuração da BIOS e baseada nas opções da placa mãe `Asus EX-B460M-V5 Versão da BIOS 1401`
 
 ❌ Desabilitar
 
@@ -88,7 +88,7 @@ A Configuração da BIOS e baseada nas opções da placa mãe `Asus EX-B460M-V5`
 	- Advanced\Trusted Computing 
 		- **Secure Device Support** `Disabled`.
 
-- Intel Platform Trust
+- TPM
 	- Advanced\PCH-FW Configuration
 		- **TPM Device Selection** `Enable Discrete TPM`.
 	- Você pode ativar no caso se você usa dual Boot, não interfere em nada, mas se você não usa recomendo deixar desabilitado.

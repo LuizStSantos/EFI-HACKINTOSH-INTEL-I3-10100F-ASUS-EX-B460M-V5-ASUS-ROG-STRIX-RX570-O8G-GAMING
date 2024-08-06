@@ -54,9 +54,9 @@
 
 ## :closed_lock_with_key: SMBIOS
 
-Você precisará gerar seu próprio SMBIOS e configurar, já que é necessário trabalhar totalmente com o macOS. De acordo com este EFI, você pode usar os seguintes SMBIOS: iMac20,1. Observe que se o seu hardware é diferente para o mencionado aqui você tem que escolher um SMBIOS apropriado.
+iMac20,1 (usado nesta EFI)
 
-Use GenSMBIOS para gerar seu próprio SMBIOS exclusivo e, em seguida, copie cada parâmetro seguindo o caminho (recomendado para seguir o guia acima):
+Use GenSMBIOS para gerar seu próprio SMBIOS exclusivo e, em seguida, copie cada parâmetro seguindo o caminho (recomendado para seguir o guia): [GenSMBIOS](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#using-gensmbios)
 
 Config.plist -> PlatformInfo -> Genérico
 

@@ -51,7 +51,8 @@
 ## :x: Não funciona:
 
 ❌ Desabilitado 
-- USB 3.0 Interno da placa mãe não está mapeado.
+- USB 3.0
+	- Interno não está mapeado.
 
 ## :closed_lock_with_key: SMBIOS
 

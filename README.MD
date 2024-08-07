@@ -73,7 +73,9 @@ A Configuração da BIOS e baseada nas opções da placa mãe `Asus EX-B460M-V5 
 - Fast Boot
 	- Boot\Boot Configuration
 		- **Fast Boot** `Disabled`.
-
+- Network Stack
+	- Advanced\Network Stack Configuration
+		**Network Stack** `Disabled`.
 
 - Compatibility Support Module (CSM).
 	- Boot\CSM (Compatibility Support Module)
@@ -119,6 +121,10 @@ A Configuração da BIOS e baseada nas opções da placa mãe `Asus EX-B460M-V5 
 - Hyper-Threading
 	- Advanced\CPU Configuration
 		- **Hyper-Threading** `Enabled`.
+
+- XMP
+	- I-Cafe
+		- **Ai Overclock Tuner** `XMP I`.
 
 - EHCI/XHCI Hand-off
 	- Advanced\USB Configuration
